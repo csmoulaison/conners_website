@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
+@keyframes slideInFromLeft {
+	0% {
+		opacity: 0%;
+		transform: translateX(-20px);
+	}
+	100% {
+		opacity: 100%;
+		transform: translateX(0);
+	}
+}
+
+html {
+	font-family: "Inter";
+	color: #ffffff;
+	background: #222222;
+}
+
+body {
+	width: 60ch;
+	margin: auto;
+}
+
+header {
+	margin: 16px 0;
+}
+
+h1 {
+	font-size: 20px;
+	margin: 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+.header-home {
+	color: #ffffff;
+	text-decoration-color: rgba(255,255,255,0);
+
+	transition: text-decoration-color 0.15s;
+}
+
+.header-home:hover {
+	text-decoration-color: rgba(255,255,255,255);
+}
+
+.header-subject {
+	color: #aaaaaa;
+	animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.header-date {
+	color: #aaaaaa;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 16px;
+}
+
+article {
+	animation: 0.25s ease-out 0s 1 slideInFromLeft;
+}
+
+.blog-list {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.blog-link {
+	display: flex;
+	gap: 12px;
+	align-items: baseline;
+}
+
+.blog-link-date {
+	color: #aaaaaa;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.blog-link-title {
+	color: white;
+}
+
