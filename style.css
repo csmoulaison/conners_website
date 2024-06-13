@@ -17,7 +17,7 @@
 html {
 	font-family: "Inter";
 	color: #ffffff;
-	background: #222222;
+	background: #161616;
 }
 
 body {
@@ -36,6 +36,16 @@ h1 {
 
 p {
 	margin-top: 0;
+}
+
+img {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-bottom: 18px;
+
 }
 
 .header-home {
@@ -64,6 +74,7 @@ p {
 
 article {
 	animation: 0.25s ease-out 0s 1 slideInFromLeft;
+	mix-blend-mode: screen;
 }
 
 .blog-list {
