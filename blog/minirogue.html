@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Conner Moulaison/MiniRogue Part 1</title>
+		<link rel='stylesheet' href='../style.css'>
+	</head>
+	<body>
+		<header>
+			<h1><a class='header-home' href='../index.html'>Conner Moulaison</a> / <a class='header-home' href='./index.html'>blog</a><span class='header-subject'> / how to program a video game the hard and simple way (part 1)</span></h1>
+		</header>
+
+		<article>
+			<h2 class='header-date'>6.14.24</h2>
+			<p>This is a series intended for those of you interested in programming games the "hard" way. In other words, outside of the warm comfort of a commercial game engine. It's my strong belief that following this path, though tougher in the short term, is invaluable for a developer who takes their growth seriously.</p>
+			<p>We will be writing a minimal, ASCII character based Roguelike game using the C programming language and a code library called <a href='https://www.libsdl.org/'>SDL</a> to help us draw things on screen. I think these represent a useful level of abstraction to work with while first venturing into this wild west.</p>
+			<p>The series will be something in between a tutorial and a project post-mortem. My main goal is to show people an effective way of thinking about developing a project from scratch. When I first started doing this kind of programming, I remember it feeling like an excessively daunting and mysterious environment, and I hope that it won't feel that way for you by the time you finish reading.</p>
+			<p>It's important to lay out my personal biases as a developer. A huge issue I see with available learning resources about this stuff is that they tend to impress a particular way of doing things upon the reader without making it clear that software engineering is not at all a settled science.</p>
+			<p>I come from the - increasingly mainstream, though not most popular - perspective of someone who regards "top-down" engineering approaches with a healthy amount of skepticism. These include, but are not limited to: object-oriented principles, entity component systems, and programming styles that skew more <a href='https://en.wikipedia.org/wiki/Declarative_programming'>declarative</a> than <a href='https://en.wikipedia.org/wiki/Imperative_programming'>imperative</a>.</p>
+			<p>A well made program, in my view, is one which has been organically molded by a process of consistently and aggressively iterating on straightforward, imperative code. The process, in other words, is to code the most obvious set of steps to achieve a small chunk of the program's functionality, and restructure only in order to solve issues that arise directly from this process. This is a "bottom-up" way of programming, and if done well, it leads to code that is much more directly mapped onto the actual problem space of the program.</p>
+			<p>Finally, try not to view this series as a particularly well developed statement on the process of game programming. Think of it more as an insight into the personal process of someone who has one to share. I'm not the most experienced developer on the internet. I'm not even that handy with C. My only credentials are that I know how it feels to go from being reliant on engines like Unity to now feeling confident in my ability to navigate the world of creating games from scratch.</p>
+			<em>Coming soon: part 2 - setting up the development environment</em>
+			<h3>Useful resources/influences</h2>
+			<p>For those familiar with the general engineering culture I'm espousing, excuse the stereotypical set of sources I've chosen to share here. For those who aren't, these should be a good place to start if you're interested in exploring more of this style of programming.</p>
+			<p><a href='https://caseymuratori.com/blog_0015'>Semantic Compression by Casey Muratori</a> - A writeup describing a very similar thought process to the one we will be employing in this series. This is one of the most concrete influences on my programming style.</p>
+			<p><a href='https://www.youtube.com/watch?v=rX0ItVEVjHc'>Data Oriented Design and C++ by Mike Acton</a> - This is a famous talk in my neck of the woods. Lots of technical concepts, but encourages viewing the program more as a concrete set of problem statements than an abstract architectural exercise.</p>
+			<p><a href='https://www.youtube.com/watch?v=ubWB_ResHwM'>Sledgehammer Programming by Jonathon Blow</a> - Our favorite grumpy uncle comments on the refactoring process, encouraging us to iterate aggressively as the needs of the program evolve.</p>
+		</article>
+	</body>
+</html>
