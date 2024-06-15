@@ -84,8 +84,8 @@ article {
 }
 
 .blog-link {
-	display: flex;
-	gap: 12px;
+	display: grid;
+	grid-template-columns: 6ch 1fr;
 	align-items: baseline;
 }
 
